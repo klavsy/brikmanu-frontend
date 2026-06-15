@@ -8,7 +8,7 @@
       </div>
       <div v-if="user" class="text-xs bg-white text-[#9E1B32] px-3 py-1 rounded-full font-bold shadow-sm">
         {{ user.name }}
-      </div
+      </div>
     </nav>
 
     <main class="p-4 max-w-2xl mx-auto">
@@ -32,7 +32,7 @@
         </div>
         
         <button @click="view = 'admin'" class="mt-12 text-slate-400 text-xs hover:text-slate-600 transition-colors underline">
-          Admin paziņojumi
+          Admin paneļis
         </button>
       </div>
 
